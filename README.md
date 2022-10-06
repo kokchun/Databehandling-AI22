@@ -1,4 +1,4 @@
-# Databehandling - AI22
+# Databehandling-AI22
 
 DRAFT - NOT FINISHED YET
 
@@ -6,8 +6,8 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 
 [ghr]: https://github.com/kokchun/Databehandling-21
 
-- [Class schedule](https://github.com/kokchun/Databehandling-21/blob/main/Schedule_Databehandling_AI21.md)
-- [Resources](https://github.com/kokchun/Databehandling-21/tree/main/Resources)
+- [Class schedule](https://github.com/kokchun/Databehandling-AI22/blob/main/Schedule_Databehandling_AI22.md)
+- [Resources](https://github.com/kokchun/Databehandling-AI22/tree/main/Resources)
 
 ## Schedule
 
