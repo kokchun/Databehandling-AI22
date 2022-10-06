@@ -1,6 +1,6 @@
-# Week 42 - Resources
+# Week 43 - Resources
 
-[Back to main page :house:](https://github.com/kokchun/Databehandling-21)
+[Back to main page :house:](https://github.com/kokchun/Databehandling-AI22)
 
 ## Setup :wrench:
 
@@ -37,9 +37,9 @@
 
 ## Lecture notes :book:
 
-- [Pandas basics](https://github.com/kokchun/Databehandling-21/blob/main/Lectures/L0-pandas-basics.ipynb)
+- [Pandas basics](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L0-pandas-basics.ipynb)
 
-- [Missing data & aggregations](https://github.com/kokchun/Databehandling-21/blob/main/Lectures/L1-missing-aggregation.ipynb)
+- [Missing data & aggregations](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L1-missing-aggregation.ipynb)
 
 ## Theory :book:
 
@@ -61,4 +61,4 @@
 
 ## Exercises :running:
 
-- [Basic syntax exercises](https://github.com/kokchun/Databehandling-21/blob/main/Exercises/00_pandas_basic_syntax.ipynb)
+- [Basic syntax exercises](https://github.com/kokchun/Databehandling-AI22/blob/main/Exercises/00_pandas_basic_syntax.ipynb)

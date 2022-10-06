@@ -1,6 +1,6 @@
-# Week 44 - Resources
+# Week 45 - Resources
 
-[Back to main page :house:](https://github.com/kokchun/Databehandling-21)
+[Back to main page :house:](https://github.com/kokchun/Databehandling-AI22)
 
 ## Setup
 
@@ -22,10 +22,10 @@ pipenv install requests
 [pandas_vid_formats]: https://www.youtube.com/watch?v=N6hyN6BW6ao&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=11
 
 ## Lecture notes :book:
-- [Datetime](https://github.com/kokchun/Databehandling-21/blob/main/Lectures/L4-datetime.ipynb)
-- [API](https://github.com/kokchun/Databehandling-21/blob/main/Lectures/L4.1-api-stocks.ipynb)
-- [Dashboard with api](https://github.com/kokchun/Databehandling-21/tree/main/Lectures/L5-stock-dashboard/L5.1)
-- [Dashboard local files](https://github.com/kokchun/Databehandling-21/tree/main/Lectures/L5-stock-dashboard/L5.2)
+- [Datetime](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L4-datetime.ipynb)
+- [API](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L4.1-api-stocks.ipynb)
+- [Dashboard with api](https://github.com/kokchun/Databehandling-AI22/tree/main/Lectures/L5-stock-dashboard/L5.1)
+- [Dashboard local files](https://github.com/kokchun/Databehandling-AI22/tree/main/Lectures/L5-stock-dashboard/L5.2)
 
 ## Theory :book:
 

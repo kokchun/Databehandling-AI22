@@ -1,6 +1,6 @@
-# Week 43 - Resources
+# Week 44 - Resources
 
-[Back to main page :house:](https://github.com/kokchun/Databehandling-21)
+[Back to main page :house:](https://github.com/kokchun/Databehandling-AI22)
 
 ## Setup :wrench:
 
@@ -29,8 +29,8 @@
 
 ## Lecture notes :book:
 
-- [Lec notes - merging](https://github.com/kokchun/Databehandling-21/blob/main/Lectures/L3-merge.ipynb)
+- [Lec notes - merging](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L3-merge.ipynb)
 
 ## Exercises :running:
 
-- [exercise merging](https://github.com/kokchun/Databehandling-21/blob/main/Exercises/E02_merging.ipynb)
+- [exercise merging](https://github.com/kokchun/Databehandling-AI22/blob/main/Exercises/E02_merging.ipynb)

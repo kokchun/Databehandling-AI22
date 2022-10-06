@@ -1,6 +1,6 @@
-# Week 46 - Resources
+# Week 47 - Resources
 
-[Back to main page :house:](https://github.com/kokchun/Databehandling-21)
+[Back to main page :house:](https://github.com/kokchun/Databehandling-AI22)
 
 ## Setup
 
