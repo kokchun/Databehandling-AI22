@@ -9,21 +9,17 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 - [Class schedule](https://github.com/kokchun/Databehandling-AI22/blob/main/Schedule_Databehandling_AI22.md)
 - [Resources](https://github.com/kokchun/Databehandling-AI22/tree/main/Resources)
 
-## Schedule
+---
 
-<details open>
-  
-<summary id="schedule">Click to see/hide schedule</summary>
+## Plan
 
 |    Week     | Content                                                                               |
 | :---------: | ------------------------------------------------------------------------------------- |
 | [43][week1] | series, dataframe, missing data, selection, filtering, aggregate, groupby, seaborn    |
 | [44][week2] | merge, concatenate, join, sort, apply, strings, plotly express, KPI **lab 1**         |
 | [45][week3] | dates, regex, data formats, dash, high performance, anonymize, **lab 1**, **project** |
-| [46][week4] | GDPR, callbacks, bootstrap, deployment **project**                                    |
+| [46][week4] | GDPR, datavisualisation UX, callbacks, bootstrap, deployment **project**              |
 | [47][week5] | **project**, **seminar**                                                              |
-
-</details>
 
 [week1]: https://github.com/kokchun/Databehandling-AI22/blob/main/Resources/week1.md
 [week2]: https://github.com/kokchun/Databehandling-AI22/blob/main/Resources/week2.md
@@ -32,6 +28,7 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 [week5]: https://github.com/kokchun/Databehandling-AI22/blob/main/Resources/week5.md
 
 ---
+
 ## Resources
 
 Many exercises and lecture materials are in form of Jupyter notebooks with **.ipynb** extensions. Sometimes GitHub may not load them correctly for preview, then you can use [Open in Colab][colab_addon], which is an addon in Chrome to open the notebook in Colab. Alternatively, you can go to [jupyter nbviewer][nbviewer], and paste the link to the notebook for previewing. Also the hints and answers can be seen from Colab. When working with exercises it is important that you create your own notebooks (.ipynb) or script files (.py).
