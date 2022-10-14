@@ -38,8 +38,8 @@
 ## Lecture notes :book:
 
 - [Pandas basics](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L0-pandas-basics.ipynb)
-
 - [Missing data & aggregations](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L1-missing-aggregation.ipynb)
+- [Plotly](https://github.com/kokchun/Databehandling-AI22/blob/main/Lectures/L2-plotly-express.ipynb)
 
 ## Theory :book:
 
