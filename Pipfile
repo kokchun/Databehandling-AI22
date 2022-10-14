@@ -12,6 +12,9 @@ plotly = "*"
 nbformat = "*"
 lxml = "*"
 ipykernel = "*"
+python-dotenv = "*"
+requests = "*"
+seaborn = "*"
 
 [dev-packages]
 
