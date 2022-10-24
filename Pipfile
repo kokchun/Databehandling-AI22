@@ -16,6 +16,8 @@ python-dotenv = "*"
 requests = "*"
 seaborn = "*"
 openpyxl = "*"
+dash = "*"
+dash-bootstrap-components = "*"
 
 [dev-packages]
 
