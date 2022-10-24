@@ -1,15 +1,16 @@
 # Schema - Databehandling (AI21)
 
-## DRAFT NOT FINISHED YET
+
+| Vecka |          Måndag           |     Tisdag (distans)      |            Onsdag             | Fredag                    |          Deadlines          |
+| :---: | :-----------------------: | :-----------------------: | :---------------------------: | ------------------------- | :-------------------------: |
+|  43   | 9-11:45 F <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |                           |                             |
+|  44   | 9-11:45 F <br> 13:15-15 S | 9-11:45 G <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |                           |                             |
+|  45   | 9-11:45 F <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |                           |       Labb 1 (fredag)       |
+|  46   | 9-11:45 G <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |  10-11 Studiebesök AI sweden  | 9-11:45 F <br> 13:15-15 S |                             |
+|  47   | 9-11:45 S <br> 13:15-15 S | 9-11:45 S <br> 13:15-15 S | 9-11:45 Sem <br> 13:15-15 Sem |                           | Kod (fre), presentera (ons) |
 
 
-| Vecka |          Måndag           |     Tisdag (distans)      |            Torsdag            |          Deadlines          |
-| :---: | :-----------------------: | :-----------------------: | :---------------------------: | :-------------------------: |
-|  43   | 9-11:45 F <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 G <br> 13:15-15 S   |                             |
-|  44   | 9-11:45 F <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |       Labb 1 (fredag)       |
-|  45   | 9-11:45 F <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |                             |
-|  46   | 9-11:45 G <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 S <br> 13:15-15 S   |                             |
-|  47   | 9-11:45 S <br> 13:15-15 S | 9-11:45 S <br> 13:15-15 S | 9-11:45 Sem <br> 13:15-15 Sem | Kod (fre), presentera (tor) |
+OBS: ytterligare två gästföreläsningar kommer planeras in, men förmodligen kommer ske på en av lektionsdagarna
 
 F - föreläsning
 
