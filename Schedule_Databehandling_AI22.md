@@ -1,7 +1,7 @@
-# Schema - Databehandling (AI21)
+# Schema - Databehandling (AI22)
 
 
-| Vecka |          Måndag           |     Tisdag (distans)      |            Onsdag             | Fredag                    |          Deadlines          |
+| Vecka |     Måndag (distans)      |          Tisdag           |            Onsdag             | Fredag                    |          Deadlines          |
 | :---: | :-----------------------: | :-----------------------: | :---------------------------: | ------------------------- | :-------------------------: |
 |  43   | 9-11:45 F <br> 13:15-15 S | 9-11:45 F <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |                           |                             |
 |  44   | 9-11:45 F <br> 13:15-15 S | 9-11:45 G <br> 13:15-15 S |   9-11:45 F <br> 13:15-15 S   |                           |                             |
