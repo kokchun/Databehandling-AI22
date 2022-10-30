@@ -19,6 +19,8 @@ openpyxl = "*"
 dash = "*"
 dash-bootstrap-components = "*"
 black = "*"
+html5lib = "*"
+bs4 = "*"
 
 [dev-packages]
 
