@@ -14,7 +14,7 @@ I den här projektet ska ni hämta historisk data på OS från [Kaggle][OS_data]
 Uppgift 0 kan ni göra i Jupyter Notebook eller en/flera Pythonskript. I uppgift 1-2 ska ni använda Plotly Dash och skapa en dashboard. Uppgift 3 ska ni presentera tillsammans och uppgift 4 är individuell video. För inlämning ska varje person skicka in länk till:
 - gemensamma github-repot
 - länk till individuella videon
-- länk till din deployade dash app 
+- länk till er deployade dash app 
 
 ---
 ### Uppgift 0 - Uppvärmning
@@ -35,9 +35,9 @@ Börja med att göra explorativ dataanalys över hela datasettet. Generella frå
 
 Se även till att plotta några intressanta features, exempelvis:
 
-&nbsp; g. cirkeldiagram över könsfördelningen
+&nbsp; g. diagram över könsfördelningen
 
-&nbsp; h. stapeldiagram över topp 10 länder som tagit flest medaljer
+&nbsp; h. diagram över topp 10 länder som tagit flest medaljer
 
 &nbsp; i. plotta gärna fler saker som är intressant.
 
@@ -65,7 +65,7 @@ Skapa fler plots för att visualisera olika aspekter kring sporterna.
 ---
 ### Uppgift 3 - Presentation
 
-Skapa en snygg dashboardapplikation som sammanfattar det ni undersökt i uppgift 1 och 2. 
+Skapa en snygg dashboardapplikation som sammanfattar det ni undersökt i uppgift 1 och 2. Deploya därefter dashapplikationen i [Heroku](https://www.heroku.com/).
 
 Presentera därefter i grupp på ca 10-15 min/grupp där ni bland annat förklarar: 
 - vilka frågeställningar ni haft.
