@@ -15,6 +15,18 @@ pipenv install bottleneck
 - [Deploy app on heroku](https://www.youtube.com/watch?v=b-M2KQ6_bM4)
 - [Client side callback](https://www.youtube.com/watch?v=wHUzUHTPfo0)
 
+### Git
+- [why use git? - thenetninja](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+- [how git works? - thenetninja](https://www.youtube.com/watch?v=iNP_KmOFqXs&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=3)
+- [creating repo - thenetninja](https://www.youtube.com/watch?v=v0Ch3yWQ-Zc&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=4)
+- [staging - thenetninja](https://www.youtube.com/watch?v=KngvG8WzYLU&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=5)
+- [commits - thenetninja](https://www.youtube.com/watch?v=Fhgga2s_RmM&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=6)
+- [checkout, revert, reset - thenetninja](https://www.youtube.com/watch?v=RIYrfkZjWmA&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=7)
+- [branches - thenetninja](https://www.youtube.com/watch?v=QV0kVNvkMxc&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=8)
+- [merging branches - thenetninja](https://www.youtube.com/watch?v=XX-Kct0PfFc&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=9)
+- [intro to github - thenetninja](https://www.youtube.com/watch?v=fQLK8Ib_SKk&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=10)
+- [collaborating on github, pull requests - thenetninja](https://www.youtube.com/watch?v=MnUd31TvBoU&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=11)
+
 ## Theory :book:
 
 - [Anonymization using hashlib](https://towardsdatascience.com/anonymise-sensitive-data-in-a-pandas-dataframe-column-with-hashlib-8e7ef397d91f)
