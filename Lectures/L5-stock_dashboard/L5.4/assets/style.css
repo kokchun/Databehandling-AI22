@@ -1,0 +1,24 @@
+label {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+input {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.Select-value {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e2ebfa;
+}
+
+/* for fixing footer covering contents */
+body{
+  padding-bottom: 5rem;
+}
