@@ -5,6 +5,7 @@ from load_data import StockData
 from dash import html, dcc  # dcc - dash core components
 from dash.dependencies import Output, Input
 import plotly_express as px
+from time_filtering import filter_time
 
 directory_path = os.path.dirname(__file__)
 path = os.path.join(directory_path, "stocksdata")
@@ -61,7 +62,13 @@ def update_graph(stock, ohlc, time_index):
     # tuple unpacks a list 
     dff_daily, dff_intraday = df_dict[stock]
 
-    return px.line(dff_daily, x = dff_daily.index, y = ohlc, title = symbol_dict[stock])
+    dff = dff_intraday if time_index <= 2 else dff_daily
+
+    days = {i: day for i, day in enumerate([1, 7, 30, 90, 365, 365*5])}
+
+    dff = dff if time_index == 6 else filter_time(dff, days = days[time_index])
+
+    return px.line(dff, x = dff.index, y = ohlc, title = symbol_dict[stock])
 
 if __name__ == "__main__":
     app.run_server(debug=True)
