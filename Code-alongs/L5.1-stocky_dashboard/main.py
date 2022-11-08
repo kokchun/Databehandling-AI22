@@ -81,10 +81,18 @@ def filter_df(stock, time_index):
 
     return dff.to_json()
 
-@app.callback(Output(), Output(), Input(), Input())
-def highest_lowest_value_update(json_df, ohlc):
-    pass
 
+@app.callback(
+    Output("highest-value", "children"),
+    Output("lowest-value", "children"),
+    Input("filtered-df", "data"),
+    Input("ohlc-radio", "value"),
+)
+def highest_lowest_value_update(json_df, ohlc):
+    dff = pd.read_json(json_df)
+    highest_value = dff[ohlc].max()
+    lowest_value = dff[ohlc].min()
+    return highest_value, lowest_value
 
 
 @app.callback(
