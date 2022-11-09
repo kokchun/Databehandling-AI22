@@ -1,3 +1,4 @@
+#%%
 import dash
 import dash_bootstrap_components as dbc
 import os
@@ -8,13 +9,25 @@ import plotly_express as px
 from time_filtering import filter_time
 import pandas as pd
 
-# kfoakpeokpfjfo
+
+#%%
+
+# find absolute path because in vscode, when clicking play button it will check where you are in terminal, which is in Databehandling AI22
 directory_path = os.path.dirname(__file__)
 path = os.path.join(directory_path, "stocksdata")
 
-print(path)
 
+
+
+print("hej")
+
+#%%
+
+# instantiate an object from the class StockData that we have imported
 stockdata_object = StockData(path)
+
+
+#%%
 
 # pick one stock
 # print(stockdata_object.stock_dataframe("AAPL"))
@@ -22,6 +35,8 @@ stockdata_object = StockData(path)
 symbol_dict = {"AAPL": "Apple", "NVDA": "Nvidia", "TSLA": "Tesla", "IBM": "IBM"}
 
 df_dict = {symbol: stockdata_object.stock_dataframe(symbol) for symbol in symbol_dict}
+
+#%%
 
 stock_options_dropdown = [
     {"label": name, "value": symbol} for symbol, name in symbol_dict.items()
@@ -41,6 +56,8 @@ slider_marks = {
 print(df_dict.keys())
 # print(df_dict["TSLA"][0])
 
+#%%
+
 # create a Dash App
 app = dash.Dash(__name__)
 
@@ -53,7 +70,7 @@ app.layout = html.Main(
             options=stock_options_dropdown,
             value="AAPL",
         ),
-        html.P(id="highest-value"),
+        html.P("fdsfsdfhighest-value",id="highest-value"),
         html.P(id="lowest-value"),
         dcc.RadioItems(id="ohlc-radio", options=ohlc_options, value="close"),
         dcc.Graph(id="stock-graph"),
@@ -61,13 +78,13 @@ app.layout = html.Main(
             id="time-slider", min=0, max=6, marks=slider_marks, value=2, step=None
         ),
         # storing intermediate value on clients browser in order to share between several callbacks
-        dcc.Store(id="filtered-df"),
+        dcc.Store(id="filtered-df-store"),
     ]
 )
 
-
+# when the dropdown value changes or the time slider value changes it will trigger filter-df to run
 @app.callback(
-    Output("filtered-df", "data"),
+    Output("filtered-df-store", "data"),
     Input("stockpicker-dropdown", "value"),
     Input("time-slider", "value"),
 )
@@ -86,19 +103,19 @@ def filter_df(stock, time_index):
 @app.callback(
     Output("highest-value", "children"),
     Output("lowest-value", "children"),
-    Input("filtered-df", "data"),
+    Input("filtered-df-store", "data"),
     Input("ohlc-radio", "value"),
 )
 def highest_lowest_value_update(json_df, ohlc):
     dff = pd.read_json(json_df)
     highest_value = dff[ohlc].max()
     lowest_value = dff[ohlc].min()
-    return highest_value, lowest_value
+    return f"MAX: {highest_value}", f"MIN: {lowest_value}"
 
 
 @app.callback(
     Output("stock-graph", "figure"),
-    Input("filtered-df", "data"),
+    Input("filtered-df-store", "data"),
     Input("stockpicker-dropdown", "value"),
     Input("ohlc-radio", "value"),
 )
