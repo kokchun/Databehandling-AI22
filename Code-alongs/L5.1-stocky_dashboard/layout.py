@@ -34,7 +34,10 @@ class Layout:
                         dbc.Col(
                             html.P("Choose a stock"),
                             className="mt-1",
-                            lg="4",
+                            xs=12,
+                            sm=12,
+                            md=6,
+                            lg=4,
                             xl={"offset": 2, "size": 2},
                         ),
                         dbc.Col(
@@ -43,8 +46,11 @@ class Layout:
                                 options=self._stock_options_dropdown,
                                 value="AAPL",
                             ),
-                            lg="4",
-                            xl="3",
+                            xs=12,
+                            sm=12,
+                            md=12,
+                            lg=4,
+                            xl=3,
                         ),
                         dbc.Col(
                             dbc.Card(
@@ -55,8 +61,11 @@ class Layout:
                                     value="close",
                                 )
                             ),
-                            lg="4",
-                            xl="3",
+                            xs=12,
+                            sm=12,
+                            md=12,
+                            lg=4,
+                            xl=3,
                         ),
                     ],
                 ),
@@ -74,28 +83,49 @@ class Layout:
                                     step=None,
                                 ),
                             ],
+                            xs="12",
+                            sm="12",
+                            md="12",
                             lg={"size": 6},
-                            xl=6,
+                            xl="6",
                         ),
                         dbc.Col(
                             [
                                 dbc.Row(
                                     dbc.Card(
                                         [
-                                            html.H2("Highest value", className="h5 mt-3 mx-3"),
-                                            html.P(id="highest-value", className="h1 mx-2 text-success"),
+                                            html.H2(
+                                                "Highest value",
+                                                className="h5 mt-3 mx-3",
+                                            ),
+                                            html.P(
+                                                id="highest-value",
+                                                className="h1 mx-2 text-success",
+                                            ),
                                         ]
-                                    )
+                                    ),
+                                    className="mt-5 h-25",
                                 ),
                                 dbc.Row(
                                     dbc.Card(
                                         [
-                                            html.H2("Lowest value", className="h5 mt-3 mx-3"),
-                                            html.P(id="lowest-value", className="h1 mx-2 text-danger"),
+                                            html.H2(
+                                                "Lowest value", className="h5 mt-3 mx-3"
+                                            ),
+                                            html.P(
+                                                id="lowest-value",
+                                                className="h1 mx-2 text-danger",
+                                            ),
                                         ]
-                                    )
+                                    ),
+                                    className="mt-5 h-25",
                                 ),
-                            ]
+                            ],
+                            sm = 5,
+                            md = 3,
+                            lg=3,
+                            xl=2,
+                            className="mt-5 mx-5",
                         ),
                     ]
                 ),
